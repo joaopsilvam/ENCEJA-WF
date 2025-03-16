@@ -1,0 +1,16 @@
+C:\Users\joaop\Desktop\Projetos\ENCEJA-WF\ENCEJA_WF\ENCEJA_WF_Application\bin\Debug\net9.0\ENCEJA_WF_Application.deps.json
+C:\Users\joaop\Desktop\Projetos\ENCEJA-WF\ENCEJA_WF\ENCEJA_WF_Application\bin\Debug\net9.0\ENCEJA_WF_Application.dll
+C:\Users\joaop\Desktop\Projetos\ENCEJA-WF\ENCEJA_WF\ENCEJA_WF_Application\bin\Debug\net9.0\ENCEJA_WF_Application.pdb
+C:\Users\joaop\Desktop\Projetos\ENCEJA-WF\ENCEJA_WF\ENCEJA_WF_Application\bin\Debug\net9.0\ENCEJA_WF_Domain.dll
+C:\Users\joaop\Desktop\Projetos\ENCEJA-WF\ENCEJA_WF\ENCEJA_WF_Application\bin\Debug\net9.0\ENCEJA_WF_Domain.pdb
+C:\Users\joaop\Desktop\Projetos\ENCEJA-WF\ENCEJA_WF\ENCEJA_WF_Application\obj\Debug\net9.0\ENCEJA_WF_Application.csproj.AssemblyReference.cache
+C:\Users\joaop\Desktop\Projetos\ENCEJA-WF\ENCEJA_WF\ENCEJA_WF_Application\obj\Debug\net9.0\ENCEJA_WF_Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaop\Desktop\Projetos\ENCEJA-WF\ENCEJA_WF\ENCEJA_WF_Application\obj\Debug\net9.0\ENCEJA_WF_Application.AssemblyInfoInputs.cache
+C:\Users\joaop\Desktop\Projetos\ENCEJA-WF\ENCEJA_WF\ENCEJA_WF_Application\obj\Debug\net9.0\ENCEJA_WF_Application.AssemblyInfo.cs
+C:\Users\joaop\Desktop\Projetos\ENCEJA-WF\ENCEJA_WF\ENCEJA_WF_Application\obj\Debug\net9.0\ENCEJA_WF_Application.csproj.CoreCompileInputs.cache
+C:\Users\joaop\Desktop\Projetos\ENCEJA-WF\ENCEJA_WF\ENCEJA_WF_Application\obj\Debug\net9.0\ENCEJA_WF_Application.sourcelink.json
+C:\Users\joaop\Desktop\Projetos\ENCEJA-WF\ENCEJA_WF\ENCEJA_WF_Application\obj\Debug\net9.0\ENCEJA_W.95A82C75.Up2Date
+C:\Users\joaop\Desktop\Projetos\ENCEJA-WF\ENCEJA_WF\ENCEJA_WF_Application\obj\Debug\net9.0\ENCEJA_WF_Application.dll
+C:\Users\joaop\Desktop\Projetos\ENCEJA-WF\ENCEJA_WF\ENCEJA_WF_Application\obj\Debug\net9.0\refint\ENCEJA_WF_Application.dll
+C:\Users\joaop\Desktop\Projetos\ENCEJA-WF\ENCEJA_WF\ENCEJA_WF_Application\obj\Debug\net9.0\ENCEJA_WF_Application.pdb
+C:\Users\joaop\Desktop\Projetos\ENCEJA-WF\ENCEJA_WF\ENCEJA_WF_Application\obj\Debug\net9.0\ref\ENCEJA_WF_Application.dll
