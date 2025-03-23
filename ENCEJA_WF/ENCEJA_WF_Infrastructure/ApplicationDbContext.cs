@@ -1,11 +1,12 @@
 ﻿using ENCEJA_WF_Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-public class ENCEJA_WFDbContext : DbContext
+public class ApplicationDbContext : DbContext
 {
     public DbSet<Aluno> Alunos { get; set; }
+    public DbSet<Usuario> Usuario { get; set; }
 
-    public ENCEJA_WFDbContext(DbContextOptions<ENCEJA_WFDbContext> options)
+    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
         : base(options)
     {
     }

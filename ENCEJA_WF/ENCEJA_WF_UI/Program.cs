@@ -1,11 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using ENCEJA_WF_Domain.Interfaces.Repositories;
+using ENCEJA_WF_Infrastructure.Repositories;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.IO;
-using System.Windows.Forms;
-using ENCEJA_WF_Infrastructure;
 
 namespace ENCEJA_WF_UI
 {
@@ -26,7 +24,7 @@ namespace ENCEJA_WF_UI
             using (var scope = host.Services.CreateScope())
             {
                 var services = scope.ServiceProvider;
-                var mainForm = services.GetRequiredService<Form1>();
+                var mainForm = services.GetRequiredService<FrmLogin>();
                 Application.Run(mainForm);
             }
         }
@@ -40,36 +38,18 @@ namespace ENCEJA_WF_UI
             return Host.CreateDefaultBuilder()
                        .ConfigureAppConfiguration((context, config) =>
                        {
-                           // Carregar configurações do appsettings.json
                            config.SetBasePath(AppContext.BaseDirectory);
                            config.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
                        })
                        .ConfigureServices((context, services) =>
                        {
-                           // Obtém a string de conexão do appsettings.json
                            string connectionString = context.Configuration.GetConnectionString("DefaultConnection");
-                           var databasePath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, connectionString.Replace("Data Source=", "").Trim()));
-                           Console.WriteLine($"Caminho do banco de dados: {databasePath}");
-                           // Verifica o caminho absoluto do banco de dados
-                           Console.WriteLine($"Caminho do banco de dados: {databasePath}");
 
-                           // Cria o diretório se não existir
-                           var databaseDirectory = Path.GetDirectoryName(databasePath);
-                           if (!Directory.Exists(databaseDirectory))
-                           {
-                               Directory.CreateDirectory(databaseDirectory);
-                               Console.WriteLine($"Diretório criado: {databaseDirectory}");
-                           }
+                           services.AddDbContext<ApplicationDbContext>(options =>
+                               options.UseSqlServer(connectionString));
 
-                           // Adiciona o DbContext com a string de conexão do appsettings.json
-                           services.AddDbContext<ENCEJA_WFDbContext>(options =>
-                               options.UseSqlite(connectionString));
-
-                           // Registra o Form1 como Transient (não pode ser Singleton)
-                           services.AddTransient<Form1>();
-
-                           // Registra outros serviços necessários
-                           // Exemplo: services.AddScoped<IAlunoRepository, AlunoRepository>();
+                           services.AddTransient<FrmLogin>();
+                           services.AddTransient<IUsuarioRepository, UsuarioRepository>();
                        });
         }
     }

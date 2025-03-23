@@ -10,3 +10,15 @@ C:\Users\joaop\Desktop\Projetos\ENCEJA-WF\ENCEJA_WF\ENCEJA_WF_Domain\obj\Debug\n
 C:\Users\joaop\Desktop\Projetos\ENCEJA-WF\ENCEJA_WF\ENCEJA_WF_Domain\obj\Debug\net9.0\refint\ENCEJA_WF_Domain.dll
 C:\Users\joaop\Desktop\Projetos\ENCEJA-WF\ENCEJA_WF\ENCEJA_WF_Domain\obj\Debug\net9.0\ENCEJA_WF_Domain.pdb
 C:\Users\joaop\Desktop\Projetos\ENCEJA-WF\ENCEJA_WF\ENCEJA_WF_Domain\obj\Debug\net9.0\ref\ENCEJA_WF_Domain.dll
+C:\Users\Gustavo\Desktop\ENCEJA-WF\ENCEJA_WF\ENCEJA_WF_Domain\bin\Debug\net9.0\ENCEJA_WF_Domain.deps.json
+C:\Users\Gustavo\Desktop\ENCEJA-WF\ENCEJA_WF\ENCEJA_WF_Domain\bin\Debug\net9.0\ENCEJA_WF_Domain.dll
+C:\Users\Gustavo\Desktop\ENCEJA-WF\ENCEJA_WF\ENCEJA_WF_Domain\bin\Debug\net9.0\ENCEJA_WF_Domain.pdb
+C:\Users\Gustavo\Desktop\ENCEJA-WF\ENCEJA_WF\ENCEJA_WF_Domain\obj\Debug\net9.0\ENCEJA_WF_Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gustavo\Desktop\ENCEJA-WF\ENCEJA_WF\ENCEJA_WF_Domain\obj\Debug\net9.0\ENCEJA_WF_Domain.AssemblyInfoInputs.cache
+C:\Users\Gustavo\Desktop\ENCEJA-WF\ENCEJA_WF\ENCEJA_WF_Domain\obj\Debug\net9.0\ENCEJA_WF_Domain.AssemblyInfo.cs
+C:\Users\Gustavo\Desktop\ENCEJA-WF\ENCEJA_WF\ENCEJA_WF_Domain\obj\Debug\net9.0\ENCEJA_WF_Domain.csproj.CoreCompileInputs.cache
+C:\Users\Gustavo\Desktop\ENCEJA-WF\ENCEJA_WF\ENCEJA_WF_Domain\obj\Debug\net9.0\ENCEJA_WF_Domain.sourcelink.json
+C:\Users\Gustavo\Desktop\ENCEJA-WF\ENCEJA_WF\ENCEJA_WF_Domain\obj\Debug\net9.0\ENCEJA_WF_Domain.dll
+C:\Users\Gustavo\Desktop\ENCEJA-WF\ENCEJA_WF\ENCEJA_WF_Domain\obj\Debug\net9.0\refint\ENCEJA_WF_Domain.dll
+C:\Users\Gustavo\Desktop\ENCEJA-WF\ENCEJA_WF\ENCEJA_WF_Domain\obj\Debug\net9.0\ENCEJA_WF_Domain.pdb
+C:\Users\Gustavo\Desktop\ENCEJA-WF\ENCEJA_WF\ENCEJA_WF_Domain\obj\Debug\net9.0\ref\ENCEJA_WF_Domain.dll

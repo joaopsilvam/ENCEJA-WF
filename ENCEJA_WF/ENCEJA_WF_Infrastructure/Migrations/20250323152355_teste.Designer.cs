@@ -2,40 +2,50 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
 namespace ENCEJA_WF_Infrastructure.Migrations
 {
-    [DbContext(typeof(ENCEJA_WFDbContext))]
-    partial class ENCEJA_WFDbContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(ApplicationDbContext))]
+    [Migration("20250323152355_teste")]
+    partial class teste
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder.HasAnnotation("ProductVersion", "9.0.3");
+            modelBuilder
+                .HasAnnotation("ProductVersion", "9.0.3")
+                .HasAnnotation("Relational:MaxIdentifierLength", 128);
+
+            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
             modelBuilder.Entity("ENCEJA_WF_Domain.Entities.Aluno", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("CPF")
                         .IsRequired()
-                        .HasColumnType("TEXT");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("DataNascimento")
-                        .HasColumnType("TEXT");
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Email")
                         .IsRequired()
-                        .HasColumnType("TEXT");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nome")
                         .IsRequired()
-                        .HasColumnType("TEXT");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 

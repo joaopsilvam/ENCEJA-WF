@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace ENCEJA_WF_Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class teste : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -15,12 +15,12 @@ namespace ENCEJA_WF_Infrastructure.Migrations
                 name: "Alunos",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
-                    Nome = table.Column<string>(type: "TEXT", nullable: false),
-                    DataNascimento = table.Column<DateTime>(type: "TEXT", nullable: false),
-                    CPF = table.Column<string>(type: "TEXT", nullable: false),
-                    Email = table.Column<string>(type: "TEXT", nullable: false)
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    DataNascimento = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    CPF = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
