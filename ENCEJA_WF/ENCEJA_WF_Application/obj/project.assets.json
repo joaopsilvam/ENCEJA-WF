@@ -27,23 +27,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\joaop\\.nuget\\packages\\": {},
+    "C:\\Users\\Gustavo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joaop\\Desktop\\Projetos\\ENCEJA-WF\\ENCEJA_WF\\ENCEJA_WF_Application\\ENCEJA_WF_Application.csproj",
+      "projectUniqueName": "C:\\Users\\Gustavo\\Desktop\\ENCEJA-WF\\ENCEJA_WF\\ENCEJA_WF_Application\\ENCEJA_WF_Application.csproj",
       "projectName": "ENCEJA_WF_Application",
-      "projectPath": "C:\\Users\\joaop\\Desktop\\Projetos\\ENCEJA-WF\\ENCEJA_WF\\ENCEJA_WF_Application\\ENCEJA_WF_Application.csproj",
-      "packagesPath": "C:\\Users\\joaop\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joaop\\Desktop\\Projetos\\ENCEJA-WF\\ENCEJA_WF\\ENCEJA_WF_Application\\obj\\",
+      "projectPath": "C:\\Users\\Gustavo\\Desktop\\ENCEJA-WF\\ENCEJA_WF\\ENCEJA_WF_Application\\ENCEJA_WF_Application.csproj",
+      "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Gustavo\\Desktop\\ENCEJA-WF\\ENCEJA_WF\\ENCEJA_WF_Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\joaop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -58,8 +58,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\joaop\\Desktop\\Projetos\\ENCEJA-WF\\ENCEJA_WF\\ENCEJA_WF_Domain\\ENCEJA_WF_Domain.csproj": {
-              "projectPath": "C:\\Users\\joaop\\Desktop\\Projetos\\ENCEJA-WF\\ENCEJA_WF\\ENCEJA_WF_Domain\\ENCEJA_WF_Domain.csproj"
+            "C:\\Users\\Gustavo\\Desktop\\ENCEJA-WF\\ENCEJA_WF\\ENCEJA_WF_Domain\\ENCEJA_WF_Domain.csproj": {
+              "projectPath": "C:\\Users\\Gustavo\\Desktop\\ENCEJA-WF\\ENCEJA_WF\\ENCEJA_WF_Domain\\ENCEJA_WF_Domain.csproj"
             }
           }
         }
@@ -74,7 +74,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net9.0": {
@@ -95,7 +95,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

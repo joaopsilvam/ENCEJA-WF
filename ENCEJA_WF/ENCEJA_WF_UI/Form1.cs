@@ -7,9 +7,9 @@ namespace ENCEJA_WF_UI
 {
     public partial class Form1 : Form
     {
-        private readonly ENCEJA_WFDbContext _dbContext;
+        private readonly ApplicationDbContext _dbContext;
 
-        public Form1(ENCEJA_WFDbContext dbContext)
+        public Form1(ApplicationDbContext dbContext)
         {
             InitializeComponent();
             _dbContext = dbContext;
